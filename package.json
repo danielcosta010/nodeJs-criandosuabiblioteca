@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-criandosuabiblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielcosta010/nodeJs-criandosuabiblioteca.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielcosta010/nodeJs-criandosuabiblioteca/issues"
+  },
+  "homepage": "https://github.com/danielcosta010/nodeJs-criandosuabiblioteca#readme",
+  "dependencies": {
+    "chalk": "^5.0.1",
+    "chalk-animation": "^2.0.3"
+  }
+}
