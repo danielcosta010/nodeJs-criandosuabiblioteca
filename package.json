@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cli": "node cli.js ./arquivos/texto1.md"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   "homepage": "https://github.com/danielcosta010/nodeJs-criandosuabiblioteca#readme",
   "dependencies": {
     "chalk": "^5.0.1",
-    "chalk-animation": "^2.0.3"
+    "chalk-animation": "^2.0.3",
+    "fs": "^0.0.1-security"
   }
 }
