@@ -1,12 +1,17 @@
 import chalk from 'chalk';
 import pegaArquivo from './index.js';
+import validaURLs from './http-validacao.js';
 
 
 const caminho = process.argv;
 
 async function processaTexto(caminhoDoArquivo) {
   const resultado = await pegaArquivo(caminhoDoArquivo[2]);
-  console.log(chalk.yellow('Lista de links'), resultado);
+  if (caminho[3] === 'vaidar') {
+    console.log(chalk.yellow('Links validados'), await validaURLs(resultado));
+  } else {
+    console.log(chalk.yellow('Lista de links'), resultado);
+  }
 }
 
 processaTexto(caminho);
